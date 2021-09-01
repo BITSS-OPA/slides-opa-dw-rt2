@@ -190,6 +190,10 @@ Grant, Miguel ([2020](https://academic.oup.com/spp/advance-article/doi/10.1093/s
   2. Added documentation to increase reproducibility 
   3. Created a public repository with all materials for one-click reproducibility 
 
+<!--
+ADD SLIDE ON HOW OPA IS MAINLY ABOUT IMPROVING DOCUMENTATION 
+-->
+
 ---
 background-image: url(Images/dw-open-out1.png), url(Images/dw-open-out2.png), url(Images/dw-open-out3.png), url(Images/open_output_all.svg)  
 background-size: 500px, 500px, 500px, 100px
@@ -374,7 +378,7 @@ Researchers can see clearly where their estimates are being used in a policy ana
 When there is little information for a parameter used in an OPA, a forecasting exercise can be carried out to elicit expert knowledge (DellaVigna, Pope, Vivalt [2019](https://science.sciencemag.org/content/366/6464/428.summary)).
 
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
-pagedown::chrome_print("01_slides.html", "01_slides.pdf" )
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
+pagedown::chrome_print("index.html", "slides.pdf" )
 
 ```
